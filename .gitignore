@@ -2,11 +2,12 @@
 .Rhistory
 .Rapp.history
 
-data files 
+# data files 
 
 
-*/Data
-*/Outputs
+Data/
+Outputs/
+Documents/
 
 # Session Data files
 .RData
