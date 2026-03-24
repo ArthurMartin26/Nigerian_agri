@@ -21,20 +21,4 @@ library(here)
 library(htmlwidgets)
 
 
-## cleanign df names :
 
-clean_admin_name <- function(x) {
-  x %>%
-    str_to_upper() %>%
-    str_replace_all("[[:punct:]]", " ") %>%
-    str_squish() %>%
-    str_replace_all("\\bMUNIC?I?PAL\\b", "") %>%
-    str_replace_all("\\bMUNICIPALITY\\b", "") %>%
-    str_replace_all("\\bMETROPOLITAN\\b", "") %>%
-    str_replace_all("\\bDISTRICT\\b", "") %>%
-    str_replace_all("\\bREGION\\b", "") %>%
-    str_replace_all("\\bASSEMBLY\\b", "") %>%
-    str_replace_all("\\bAREA\\b", "") %>%
-    str_replace_all("\\bNORTH\\s+MUNIC\\b", "NORTH") %>%
-    str_squish()
-}
