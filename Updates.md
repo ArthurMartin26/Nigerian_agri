@@ -1,10 +1,10 @@
-# 🚧 Research Update — Fertiliser Price Shock Identification Strategy (March 2026)
+#  Research Update — Fertiliser Price Shock Identification Strategy (March 2026)
 
 This update documents the refined identification strategy for my dissertation. Following concerns about statistical power for crop‑specific shocks (e.g. tomato pest outbreaks), I have shifted to a new, stronger, high‑power natural experiment based on the **2021–2022 global fertiliser price spike**. This approach uses **cassava, maize, and sorghum** — the three largest crops in GHS — and aligns tightly with the information-based ICT mechanism I am investigating.
 
 ---
 
-## ✅ Overview of the Natural Experiment
+##  Overview of the Natural Experiment
 
 Between 2021 and 2022, global fertiliser markets experienced extreme volatility due to:
 
@@ -27,7 +27,7 @@ This shock is **fully exogenous** to Nigerian smallholders and lines up cleanly 
 
 ---
 
-## 🎯 Why This Shock Fits the Dissertation
+##  Why This Shock Fits the Dissertation
 
 This new natural experiment is ideal because:
 
@@ -58,7 +58,7 @@ Women traditionally have weaker agricultural information networks — ICT lowers
 
 ---
 
-## 🧪 Identification Strategy
+##  Identification Strategy
 
 ### **1. Pre vs Post Shock**
 Use GHS:
@@ -102,7 +102,7 @@ This provides a difference‑in‑difference‑in‑difference interpretation **
 
 ---
 
-## 🧩 Mechanism Tests
+##  Mechanism Tests
 
 The GHS supports several adaptation behaviours identified in the World Bank paper, including:
 
@@ -118,7 +118,7 @@ These allow me to directly test *how* ICT mitigates shock impacts.
 
 ---
 
-## 📚 External Validation
+##  External Validation
 
 World Bank HFPS evidence shows:
 
@@ -131,7 +131,7 @@ This confirms that the **intensive margin** of fertiliser use — not the extens
 
 ---
 
-## 🛠️ Implementation Roadmap
+##  Implementation Roadmap
 
 1. Construct fertiliser intensity (kg/ha) from Wave 4 data.  
 2. Categorise exposure (or use as continuous variable).  
@@ -148,7 +148,7 @@ This confirms that the **intensive margin** of fertiliser use — not the extens
 
 ---
 
-## 📌 Summary
+##  Summary
 
 This shift to the fertiliser price shock delivers:
 
